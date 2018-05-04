@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\vicky\AppData\Local\Temp\testng-eclipse-437100137\testng-customsuite.xml</span>
+                    <span>C:\Users\vicky\AppData\Local\Temp\testng-eclipse--2100173122\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,12 +102,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.crm.qa.testcases.HomePageTest" hash-for-method="verifyHomepageTittleTest">verifyHomepageTittleTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.crm.qa.testcases.TaskPageTest" hash-for-method="addContactTest(Second, 60.0)">addContactTest(Second, 60.0)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.crm.qa.testcases.HomePageTest" hash-for-method="verifyUserTest">verifyUserTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.crm.qa.testcases.TaskPageTest" hash-for-method="addContactTest(Third, 76.0)">addContactTest(Third, 76.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.crm.qa.testcases.TaskPageTest" hash-for-method="addContactTest(First, 34.0)">addContactTest(First, 34.0)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -125,21 +130,31 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.crm.qa.testcases.HomePageTest</span>
+              <span class="class-name">com.crm.qa.testcases.TaskPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyHomepageTittleTest">
-                  </a> <!-- verifyHomepageTittleTest -->
-                  <span class="method-name">verifyHomepageTittleTest</span>
+                  <a name="addContactTest(Second, 60.0)">
+                  </a> <!-- addContactTest(Second, 60.0) -->
+                  <span class="method-name">addContactTest</span>
+                  <span class="parameters">(Second, 60.0)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyUserTest">
-                  </a> <!-- verifyUserTest -->
-                  <span class="method-name">verifyUserTest</span>
+                  <a name="addContactTest(Third, 76.0)">
+                  </a> <!-- addContactTest(Third, 76.0) -->
+                  <span class="method-name">addContactTest</span>
+                  <span class="parameters">(Third, 76.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addContactTest(First, 34.0)">
+                  </a> <!-- addContactTest(First, 34.0) -->
+                  <span class="method-name">addContactTest</span>
+                  <span class="parameters">(First, 34.0)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -147,7 +162,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\vicky\AppData\Local\Temp\testng-eclipse-437100137\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\vicky\AppData\Local\Temp\testng-eclipse--2100173122\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -156,7 +171,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.crm.qa.testcases.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.crm.qa.testcases.TaskPageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -196,20 +211,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyUserTest')
-data.setCell(0, 2, 'com.crm.qa.testcases.HomePageTest')
-data.setCell(0, 3, 1045);
+data.setCell(0, 1, 'addContactTest')
+data.setCell(0, 2, 'com.crm.qa.testcases.TaskPageTest')
+data.setCell(0, 3, 7683);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyHomepageTittleTest')
-data.setCell(1, 2, 'com.crm.qa.testcases.HomePageTest')
-data.setCell(1, 3, 437);
+data.setCell(1, 1, 'addContactTest')
+data.setCell(1, 2, 'com.crm.qa.testcases.TaskPageTest')
+data.setCell(1, 3, 6989);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addContactTest')
+data.setCell(2, 2, 'com.crm.qa.testcases.TaskPageTest')
+data.setCell(2, 3, 4148);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 18 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -235,30 +254,42 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.crm.qa.testcases.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.crm.qa.testcases.TaskPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyHomepageTittleTest</span>
-                <span class="method-start">50466 ms</span>
+                <span class="method-name">addContactTest(First, 34.0)</span>
+                <span class="method-start">100124 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">50915 ms</span>
+                <span class="method-start">107115 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">51827 ms</span>
+                <span class="method-start">108032 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyUserTest</span>
-                <span class="method-start">76044 ms</span>
+                <span class="method-name">addContactTest(Second, 60.0)</span>
+                <span class="method-start">143100 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">77089 ms</span>
+                <span class="method-start">150786 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">151700 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addContactTest(Third, 76.0)</span>
+                <span class="method-start">183828 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">187979 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
